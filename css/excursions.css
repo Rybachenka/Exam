@@ -42,12 +42,12 @@
 
 .slider .slick-arrow.slick-prev{
     left: 0;
-    background: url(../../img/Excursions/Polygon\ 1.svg) 0 0 / 100% no-repeat;
+    background: url(../img/Excursions/Polygon\ 1.svg) 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next{
     right: 0;
-    background: url(../../img/Excursions/Polygon\ 2.svg) 0 0 / 100% no-repeat;
+    background: url(../img/Excursions/Polygon\ 2.svg) 0 0 / 100% no-repeat;
 }
 
 .slider .slick-dots{
@@ -82,7 +82,7 @@
     max-height: 497px;
     padding: 211px 16px 42px 16px;
     border-radius: 10px;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(../../img/Excursions/Excurs1.png);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(../img/Excursions/Excurs1.png);
     background-size:contain;
     margin-right: 20px;
     transition: all 0.5s ease 0s;
@@ -184,7 +184,7 @@ h3{
     content: "";
     width: 15px;
     height: 15px;
-    background-image: url(../../img/Excursions/clock.svg);
+    background-image: url(../img/Excursions/clock.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 4px;
@@ -196,7 +196,7 @@ h3{
     content: "";
     width: 15px;
     height: 15px;
-    background-image: url(../../img/Excursions/money.svg);
+    background-image: url(../img/Excursions/money.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 4px;
