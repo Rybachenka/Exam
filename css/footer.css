@@ -1,0 +1,199 @@
+.footer-row {
+    margin: 30px 11.111%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 314px;
+    flex-grow: 1;
+}
+
+.footer-logo {
+    max-width: 80px;
+    margin-right: 42px;
+}
+
+.footer-logo:hover{
+    transform: scale(1.2);
+    transition: all 0.2s ease;
+}
+
+.footer-nav {
+    margin-right: 42px;
+}
+
+.footer-list{
+    white-space:nowrap;
+}
+
+.footer-list li+li{
+    margin-top: 8px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 489px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+.footer-contacts {
+    max-width: 235px;
+    margin-right: 42px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    white-space:nowrap;
+}
+
+.footer-social-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 112px;
+}
+
+.footer-tel1::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url(/img/footer/Tel.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}  
+
+.footer-tel2::before{
+    content: "";
+    width: 17.4px;
+    height: 14.6px;
+    background-image: url(/img/footer/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-post::before{
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-image: url(/img/footer/Email.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+a.footer-vk {
+    width: 31px;
+    height: 20px;
+    background-image: url(/img/footer/VK.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.2s ease;
+}
+
+a.footer-instagram {
+    width: 27px;
+    height: 27px;
+    background-image: url(/img/footer/Inst.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.2s ease;
+}
+
+a.footer-facebook {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/footer/facebook\ 1.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.2s ease;
+}
+
+a.footer-facebook:hover{
+    background-image: url(/img/header/ff-color.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Для адаптива */
+
+.mobile{
+    display: none;
+}
+
+
+/* Запросы */
+
+@media (max-width:780px) {
+    .footer-wrapper {
+        font-size: 12px;
+    }
+
+    .footer-row {
+        margin: 30px 10%;
+    }  
+}
+
+@media (max-width:650px) {
+    .footer-row{
+        display: none;
+    }
+
+    .mobile{
+        max-width: 378px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto 50px auto;
+    }
+
+    .footer-bottom{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 72px;
+    }
+
+    .footer-nav{
+        margin-right: 0;
+        flex-grow: 1;
+    }
+
+    .footer-logo{
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+
+    .footer-contacts{
+        margin-right: 0;
+        
+    }
+
+    .footer-social-web a+a{
+        margin-left: 12px;
+    }
+}

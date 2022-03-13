@@ -1,0 +1,491 @@
+@font-face {
+    font-family: 'Kindly-Jasmine';
+    src:url('../fonts/mr_KindlyJasmineG.otf');
+}
+
+header{
+    /* background-image: url(/img/Header_background.png); */
+    /* background-size: cover;
+    background-position: center; */
+    min-height: 789px;
+    position: relative;
+    z-index: 0;
+}
+
+.header-bg-img {
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 789px;
+    background-color: #4C4E29;
+}
+
+.header-bg-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.wrapper-header {
+    margin: 0 11.1111%;
+    color: white;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 154px;
+    position: relative;
+}
+
+.logo{
+    width: 40px;
+    height: 57px;
+}
+
+.logo-img{
+    width: 100%;
+    height: auto;
+}
+
+
+ul.header-list{
+    display: flex;
+    padding: 20px 0;
+}
+
+.header-list li{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header-list li+li{
+    margin-left: 20px;
+}
+
+a.active, a:hover{
+    color:#FFC700 ;
+}
+
+/* ______________________________________ */
+
+.header-center{
+    max-width: 1120px;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    position: relative;
+    min-height: 194px;
+}
+
+.header-center-title{
+    min-height: 194px;
+}
+
+.header-center-left{
+    display: flex;
+    flex-basis: 723px;
+    min-height: 350px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-title-top {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+}
+
+.header-title-middle {
+    font-family: 'Kindly-Jasmine';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #FFC700;
+    position: absolute;
+    left: 540px;
+    top: 48px;
+    display: inline-block;
+}
+
+.header-title-bottom {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 117px;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    position: absolute;
+    top: 77px;
+    display: inline-block;
+}
+
+.header-center-button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: white;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    padding: 17px 53px;
+    width: 240px;
+    display: inline-block;
+}
+
+.header-center-button:hover{
+    box-shadow: 0 0 10px #fff;
+    transition:  0.2s ease;
+}
+
+
+.header-center-button-img{
+    margin-left: 5px;
+}
+
+.header-center-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32px;
+    height: 110px;
+    justify-content: space-between;
+}
+
+a.vk {
+    width: 32px;
+    height: 32px;
+    background-image: url(/img/header/VK.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.2s ease;
+}
+
+a.vk:hover{
+    background-image: url(/img/header/VKred.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.instagram {
+    width: 32px;
+    height: 32px;
+    background-image: url(/img/header/instagram.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.2s ease;
+}
+
+a.instagram:hover{
+    background-image: url(/img/header/instagram_yelou.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.facebook {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/header/ff.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.2s ease;
+}
+
+a.facebook:hover{
+    background-image: url(/img/header/ff-color.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-bottom{
+    position: absolute;
+    top: 675px;
+}
+
+.header-bottom-video{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header-video{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    animation: header-video 20s linear infinite ;
+}
+
+video{
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.header-bottom span{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-bottom img{
+    width: 360px;
+    height: 227px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.header-bottom video img {
+    border-radius: 10px;
+}
+
+.header-video:hover{
+    animation: paused;
+}
+
+@keyframes header-video{
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+/* Бургер  */
+
+.icon{
+    display: none;
+    position: absolute;
+}
+
+
+/* ЗАПРОСЫ */
+
+@media (max-width: 785px) {
+    header{
+        min-height: 1024px;
+    }
+
+    .header-bg-img {
+        height: 1024px;  
+    } 
+
+    .header-top{
+        padding-bottom: 235px;
+    }
+
+    .header-title-top {
+        font-size: 48px;
+        line-height: 59px;
+    }
+    
+    .header-title-middle {
+        font-size: 48px;
+        line-height: 48px;
+        left: 349px;
+        top: 35px;
+    }
+    
+    .header-title-bottom {
+        font-size: 96px;
+        line-height: 90%;
+        top: 77px;
+    }
+
+    .header-bottom{
+        top: 928px;
+    }
+
+    .header-bottom img{
+        width: 295px;
+        height: 187px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    
+    .header-bottom video {
+        border-radius: 10px;
+        width: 295px;
+        height: 187px;
+    }
+
+   /* Бургер */
+
+   .menu-header{
+        background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+        position: absolute;
+        top: 83px;
+        width: 100%;
+        z-index: 10;
+        transition: all 0.8s ;
+        z-index: -10;
+        transition: z-index 0.4s ease;
+   }
+
+   .menu-header.active{
+       top: 83px;
+       z-index: 20;
+   }
+
+   ul.header-list{
+        flex-direction: column;
+        padding: 0;  
+   }
+
+   .header-list li a{
+       font-size: 26px;
+       padding: 30px 0;
+       width: 100%;
+   }
+
+   .header-list li a:hover{
+        box-shadow: 0 0 10px #fff;
+        transition:  0.2s ease;
+   }
+
+   .header-list li{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #444;
+        text-align: center;
+   }
+
+   .header-list li+li{
+        margin-left: 0px;
+    }
+
+    .icon{
+        display: block;
+        width: 40px;
+        height: 25px;
+        right: 0;
+        z-index: 15;
+        cursor: pointer;
+    }
+
+    .icon::before,
+    .icon::after{
+        content: "";
+        transition: all 0.5s;
+    }
+
+    .icon span,
+    .icon::before,
+    .icon::after{
+        width: 100%;
+        height: 5px;
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+    }
+
+    .icon::before{
+        top: 0;
+    }
+
+    .icon::after{
+        bottom: 0;
+    }
+
+    .icon span{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .icon.active span{
+        display: none;
+    }
+
+    .icon.active::after{
+        transform: rotate(45deg);
+        top: 50%;
+    }
+
+    .icon.active::before{
+        transform: rotate(-45deg);
+        top: 50%;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+    header{
+        min-height: 928px;
+    }
+
+    .wrapper-header {
+        margin: 0 5.607% 0 5.607%;
+    }
+
+    .header-bg-img {
+        height: 928px;  
+    } 
+
+    .header-top{
+        padding-bottom: 116px;
+    }
+
+    .header-title-top {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .header-title-middle {
+        left: 209px;
+        top: 20px;
+    }
+    
+    .header-title-bottom {
+        font-size: 72px;
+        line-height: 90%;
+        top: 56px;
+    }
+
+    .header-center{
+        position: relative;
+        display:block;
+    }
+
+    .header-center-right {
+        position: absolute;
+        right: 0;
+        top: 420px;
+    }
+
+    .header-bottom{
+        position: absolute;
+        top: 832px;
+    }
+
+    .header-bottom img{
+        width: 295px;
+        height: 187px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    
+    .header-bottom video {
+        border-radius: 10px;
+        width: 295px;
+        height: 187px;
+    }
+}

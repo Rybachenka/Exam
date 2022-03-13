@@ -1,0 +1,144 @@
+.wrapper-gallery{
+    max-width: 1410px;
+    min-height: 686px;
+    margin: 0px auto 150px auto;
+}
+
+.gallery-row-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10.284% 90px 10.284%;
+}
+
+.gallery-row-image{
+    display: flex;
+}
+
+
+.gallery-column1{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 216.5px 266.85px;
+    grid-template-rows: 280.5px 123.29px 123.29px;
+    grid-template-areas: 
+        "img1 img1"
+        "img2 img3"
+        "img2 img4"
+}
+
+.gallery-img1, .gallery-img2, .gallery-img3, .gallery-img4, .gallery-img5, .gallery-img6, .gallery-img7, .gallery-img8, .gallery-img5-col3, .gallery-img1-col3 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.gallery-img1{
+    grid-area: img1;
+}
+
+.gallery-img2{
+    grid-area: img2;
+}
+
+.gallery-img3{
+    grid-area: img3;
+}
+
+.gallery-img4{
+    grid-area: img4;
+}
+
+.gallery-column2{
+    height: 567px;
+    width: 362px;
+    margin: 0 20px;
+}
+
+.gallery-column3{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 266.85px 216.5px;
+    grid-template-rows: 263.95px 280.5px;
+    grid-template-areas: 
+        "img6 img7"
+        "img8 img8"
+}
+
+.gallery-img5-col3{
+    display: none;
+}
+
+.gallery-img1-col3{
+    display: none;
+}
+
+.gallery-img6{
+    grid-area: img6;
+}
+
+.gallery-img7{
+    grid-area: img7;
+}
+
+.gallery-img8{
+    grid-area: img8;
+}
+
+/* Запросы */
+
+@media (max-width:785px) {
+    .gallery-column1{
+        display: none;
+    } 
+}
+
+@media (max-width:650px) {
+    .gallery-column2{
+        display: none;
+    } 
+
+    .gallery-column3{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 186px 194px 260px;
+        grid-template-areas: 
+            "img5 img6"
+            "img5 img7"
+            "img1 img1"
+    }
+
+    .gallery-img5-col3{
+        grid-area: img5;
+        display: block;
+    }
+
+    .gallery-img1-col3{
+        grid-area: img1;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

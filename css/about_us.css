@@ -1,0 +1,67 @@
+.about_us{
+    max-width: 100%;
+    height: 749px;
+    z-index: 0;
+    position: relative;
+}
+
+.about-about-img {
+	max-width: 74.375%;
+	height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/aboutus/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content {
+    max-width: 542px;
+    padding: 61px 75px 105px 85px;
+    background-color:#EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    top: 137px;
+    right: 11.111111%;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    margin-top: 40px;
+}
+
+.about-text p+p{
+    margin-top:20px ;
+}
+
+/* Запросы */
+
+@media (max-width:785px) {
+    .about-content {
+        max-width: 493px;
+        padding: 61px 55px;
+}
+}
+
+@media (max-width:650px) {
+    .about_us{
+        height: 704px;
+    }
+
+    .about-content {
+        max-width: 380px;
+        max-width: 380px;
+        padding: 43px;  
+    }
+
+    .about-text {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .about-text p+p{
+        margin-top:10px ;
+    }
+}

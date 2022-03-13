@@ -1,0 +1,112 @@
+.feedback-wrapper{
+    margin-top: 230px;
+    background-image: url(/img/Feedback/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.feedback-row{
+    margin-right: 11.111%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feedback-form{
+    max-width: 560px;
+    height: 640px;
+    background-image: url(/img/Feedback/opasity.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 132px 95px 143px 105px;
+    display: inline-block;
+}
+
+.feedback-text{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.feedback-text-small{
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+}
+
+input{
+    display: block;
+    margin-top: 45px;
+    background-color: transparent;
+    border-bottom: white 1px solid;
+    outline: none;
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 12px;
+    line-height: 15px;
+    min-width: 360px;
+    color:#FFFFFF ;
+}
+
+input[type="submit"] {
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: white;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    padding: 17px 53px;
+    margin-top: 83px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color:#FFC700;
+    box-shadow: 0 0 10px #fff;
+    transition:  0.2s ease;
+}
+
+.colortext{
+    color: #FFFFFF;
+}
+
+::placeholder{
+    color: #FFFFFF;
+}
+
+/* Запросы */
+
+@media (max-width:650px) {
+    .feedback-wrapper{
+        padding-bottom: 263px;
+    }
+
+    .feedback-row{
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback-box{
+        margin: 25px auto 0 auto;
+    }
+
+    .feedback-form{
+        max-width: 380px;
+        height: 640px;
+        padding: 137px 42px 401px 42px;
+        background-position: bottom ;
+    }
+
+    input[type="text"], input[type="email"] {
+        font-size: 12px;
+        line-height: 15px;
+        min-width: 295px;
+        color:#FFFFFF ;
+    }
+}

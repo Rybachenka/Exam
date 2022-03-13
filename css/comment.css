@@ -1,0 +1,139 @@
+.wrapper-comment{
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.comment-title-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10.284% 90px 10.284%;
+}
+
+/* Карточка отзыва */
+
+.comment-card-item{
+    min-width: 740px;
+    min-height: 322px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-card-row{
+    background-color:#EDEDED;
+    border-radius: 10px;
+    display: flex;
+    padding: 38px 27px 38px 45px;
+}
+
+.foto1{
+    background-image: url(/img/Comment/Foto1.jpg);
+}
+
+.foto2{
+    background-image: url(/img/Comment/Foto2.jpg);
+}
+
+.foto1, .foto2{
+    min-width: 245px;
+    height: 245px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.comment-content {
+    margin-left: 28px;
+}
+
+.comment-card-name {
+    line-height: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.comment-card-text {
+    line-height: 17px;
+    position: relative;
+    z-index: 2;
+}
+
+.comment-decor img{
+    position: absolute;
+    top: 150px;
+    left: 510px;
+    z-index: 0;
+}
+
+/* Запросы */
+
+@media (max-width:785px) {
+    .wrapper-comment{
+        font-size: 12px;
+    }
+
+    .comment-card-item{
+        position: center;
+    }
+
+    .comment-card-row{
+        padding: 26px 17px 28px 31px;
+        width: 505px;
+        min-height: 246px;
+    }
+
+    .foto1, .foto2{
+        min-width: 168px;
+        height: 168px;
+    }
+
+    .comment-content {
+        margin-left: 20px;
+    }
+
+    .comment-decor img{
+        top: 120px;
+        left: 200px;
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+@media (max-width:650px) {
+    .wrapper-comment{
+        font-size: 13px;
+    }
+
+    .comment-card-row{
+        display: flex;
+        flex-direction: column;
+        padding: 32px 24px 48px 28px;
+        align-items: flex-start;
+        max-width: 280px;
+        height: 447px;
+    }
+
+    .foto1, .foto2{
+        min-width: 80px;
+        height: 80px;
+    }
+
+    .comment-content {
+        margin-left: 0px;
+    }
+
+    .comment-card-row{
+        padding: 32px 24px 48px 28px;
+    }
+
+    .comment-decor img{
+        top: 310px;
+        left: 90px;
+        width: 30%;
+        height: 30%;
+    }
+}
