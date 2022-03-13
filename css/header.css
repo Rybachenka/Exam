@@ -168,7 +168,7 @@ h1{
 a.vk {
     width: 32px;
     height: 32px;
-    background-image: url(/img/header/VK.svg);
+    background-image: url(../img/header/VK.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ a.vk {
 }
 
 a.vk:hover{
-    background-image: url(/img/header/VKred.svg);
+    background-image: url(../img/header/VKred.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ a.vk:hover{
 a.instagram {
     width: 32px;
     height: 32px;
-    background-image: url(/img/header/instagram.svg);
+    background-image: url(../img/header/instagram.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ a.instagram {
 }
 
 a.instagram:hover{
-    background-image: url(/img/header/instagram_yelou.svg);
+    background-image: url(../img/header/instagram_yelou.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ a.instagram:hover{
 a.facebook {
     width: 30px;
     height: 30px;
-    background-image: url(/img/header/ff.svg);
+    background-image: url(../img/header/ff.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ a.facebook {
 }
 
 a.facebook:hover{
-    background-image: url(/img/header/ff-color.svg);
+    background-image: url(../img/header/ff-color.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
