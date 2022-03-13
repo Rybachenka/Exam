@@ -1,6 +1,6 @@
 .feedback-wrapper{
     margin-top: 230px;
-    background-image: url(/img/Feedback/bg.png);
+    background-image: url(../img/Feedback/bg.png);
     background-position: center;
     background-size: cover;
 }
@@ -15,7 +15,7 @@
 .feedback-form{
     max-width: 560px;
     height: 640px;
-    background-image: url(/img/Feedback/opasity.png);
+    background-image: url(../img/Feedback/opasity.png);
     background-repeat: no-repeat;
     background-size:cover;
     padding: 132px 95px 143px 105px;
