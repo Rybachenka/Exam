@@ -67,7 +67,7 @@
     content: "";
     width: 18px;
     height: 18px;
-    background-image: url(/img/footer/Tel.svg);
+    background-image: url(../img/footer/Tel.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 10px;
@@ -79,7 +79,7 @@
     content: "";
     width: 17.4px;
     height: 14.6px;
-    background-image: url(/img/footer/Vector.svg);
+    background-image: url(../img/footer/Vector.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 10px;
@@ -91,7 +91,7 @@
     content: "";
     width: 19px;
     height: 19px;
-    background-image: url(/img/footer/Email.svg);
+    background-image: url(../img/footer/Email.svg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 10px;
@@ -103,7 +103,7 @@
 a.footer-vk {
     width: 31px;
     height: 20px;
-    background-image: url(/img/footer/VK.svg);
+    background-image: url(../img/footer/VK.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ a.footer-vk {
 a.footer-instagram {
     width: 27px;
     height: 27px;
-    background-image: url(/img/footer/Inst.svg);
+    background-image: url(../img/footer/Inst.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ a.footer-instagram {
 a.footer-facebook {
     width: 30px;
     height: 30px;
-    background-image: url(/img/footer/facebook\ 1.svg);
+    background-image: url(../img/footer/facebook\ 1.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ a.footer-facebook {
 }
 
 a.footer-facebook:hover{
-    background-image: url(/img/header/ff-color.svg);
+    background-image: url(../img/header/ff-color.svg);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
