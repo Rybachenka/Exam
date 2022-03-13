@@ -138,19 +138,19 @@
     }
 
 .card1{
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(//img/Excursions/Excurs1.png) no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(/img/Excursions/Excurs1.png) no-repeat;
     background-size:cover;
 }
 .card2{
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(//img/Excursions/Excurs2.jpg) no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(/img/Excursions/Excurs2.jpg) no-repeat;
     background-size:cover;
 }
 .card3{
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(//img/Excursions/Excurs3.jpg) no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(/img/Excursions/Excurs3.jpg) no-repeat;
     background-size:cover;
 }
 .card4{
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(//img/Excursions/Excurs4.jpg) no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(/img/Excursions/Excurs4.jpg) no-repeat;
     background-size:cover;
 }
 
