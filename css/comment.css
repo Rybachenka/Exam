@@ -29,11 +29,11 @@
 }
 
 .foto1{
-    background-image: url(/img/Comment/Foto1.jpg);
+    background-image: url(../img/Comment/Foto1.jpg);
 }
 
 .foto2{
-    background-image: url(/img/Comment/Foto2.jpg);
+    background-image: url(../img/Comment/Foto2.jpg);
 }
 
 .foto1, .foto2{
